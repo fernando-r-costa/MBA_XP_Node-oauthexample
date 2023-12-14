@@ -1,5 +1,5 @@
 module.exports = {
-    "api_key": "1014213973889-sjrus9itjrv66n2fel940qukn6qvh19v.apps.googleusercontent.com",
-    "api_secret": "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",
-    "callback_url": "http://localhost:3000/auth/google/callback"
-}
+    "api_key": process.env.API_KEY,
+    "api_secret": process.env.API_SECRET,
+    "callback_url": process.env.CALLBACK_URL
+};
